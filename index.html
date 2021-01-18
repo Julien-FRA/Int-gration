@@ -9,62 +9,306 @@
 
 <body>
 
-  <header>
-    <nav>
-      <div>Burger menu</div>
-      <div>Search</div>
-      <div>LOGO</div>
-      <div>Espace client</div>
-      <div>Panier d'achat</div>
+  <header class="nav">
+
+    <nav class="nav-bar">
+
+      <div class="logo">
+        <img src="doc/zoomalia.svg" alt="Zoomalia">
+      </div>
+
+      <ul>
+        <li>Chien</li>
+        <li>Chat</li>
+        <li>Rongeur</li>
+        <li>Poisson</li>
+        <li>Reptiles</li>
+        <li>Oiseaux</li>
+        <li>Bassin</li>
+        <li>Ferme</li>
+      </ul>
+
+      <div class="search">
+        <input class="search-bar" type="search" id="site-search" placeholder="Entrez votre recherche">
+      </div>
+
+      <div class="icon">
+        <a href="#"><img src="doc/utilisateur.svg" alt="utilisateur"></a>
+        <a href="#"><img src="doc/shop.svg" alt="shop"></a>
+        <a href="#"><img src="doc/coeur.svg" alt="coeur"></a>
+      </div>
+
     </nav>
+
   </header>
 
   <main>
 
-    <article class="catégorie">
-      <h1>Vos Animaux</h1>
+    <article class="hero-page">
+      <h1>"L'animalerie de référence de ceux qui aiment vraiment les animaux"</h1>
+      <img src="doc/hero first page.jpg" alt="hero">
     </article>
 
-    <section>
-      <h2></h2>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <section class="categorie-page">
+
+      <h2>Catégorie</h2>
+
+      <div class="categorie">
+
+        <div class="dog">
+          <img src="doc/dog 1.svg" alt="Chien">
+          <p class="name-categorie">Chien</p>
+        </div>
+
+        <div class="cat">
+          <img src="doc/cat 1.svg" alt="Chat">
+          <p class="name-categorie">Chat</p>
+        </div>
+
+        <div class="rabbit">
+          <img src="doc/rabbit 1.svg" alt="Rongeur">
+          <p class="name-categorie">Rongeur</p>
+        </div>
+
+        <div class="fish">
+          <img src="doc/clown-fish 1.svg" alt="Poisson">
+          <p class="name-categorie">Poisson</p>
+        </div>
+
+        <div class="snake">
+          <img src="doc/snake 1.svg" alt="Reptiles">
+          <p class="name-categorie">Reptiles</p>
+        </div>
+
+        <div class="bird">
+          <img src="doc/bullfinch 1.svg" alt="Oiseaux">
+          <p class="name-categorie">Oiseaux</p>
+        </div>
+
+        <div class="frog">
+          <img src="doc/frog 1.svg" alt="Bassin">
+          <p class="name-categorie">Bassin</p>
+        </div>
+
+        <div class="pig">
+          <img src="doc/pig 1.svg" alt="Ferme">
+          <p class="name-categorie">Ferme</p>
+        </div>
+
+      </div>
+
     </section>
 
-    <article>
-      <h2></h2>
-      <div></div>
-      <div></div>
+    <article class="about-us-page">
+
+      <div class="about-us">
+
+        <h2>A propos de nous ?</h2>
+
+        <p>Nous sommes l'animalerie en ligne nouvelle génération. Nous sélectionnons les produits et les accessoires de la meilleure qualité du marché, et nous créons des marques exclusives à un prix accessible à tous. Chez Zoomalia, nous sommes plus de 50 collaborateurs à vivre au quotidien notre passion des animaux. Chacun d'entre nous partage une culture d'entreprise forte basée sur nos trois fondamentaux qui sont : l'engagement, le partage et l'ambition. Le bien-être des animaux est au coeur de notre métier. Nous favorisons la relation avec votre compagnon de manière à apporter un peu plus de bonheur chaque jour au sein de votre foyer.</p>
+
+        <input class="btn-meet" type="button" value="Rencontrez l'équipe">
+
+      </div>
+
+      <div class="video">
+        <img src="doc/img video.jpg" alt="présentation">
+      </div>
+
     </article>
 
-    <section>
-      <h2></h2>
-      <article>
-        <div></div>
-        <h3></h3>
-        <p></p>
+    <section class="our-mark">
+
+      <h2>Nos Marques</h2>
+
+      <article class="card1">
+
+        <div>
+          <img src="doc/prdt sim 1.svg" alt="Exo Terra">
+        </div>
+
+        <h3>"Exo Terra"</h3>
+
+        <a href="#"><p>Voir plus ></p></a>
+
       </article>
+
+      <article class="card2">
+
+        <div>
+          <img src="doc/prdt sim 2.svg" alt="Tetra">
+        </div>
+
+        <h3>"Tetra"</h3>
+
+        <a href="#"><p>Voir plus ></p></a>
+
+      </article>
+
+      <article class="card3">
+
+        <div>
+          <img src="doc/prdt sim 3.svg" alt="Royal Canin">
+        </div>
+
+        <h3>"Royal Canin"</h3>
+
+        <a href="#"><p>Voir plus ></p></a>
+
+        <article class="card4">
+
+          <div>
+            <img src="doc/prdt sim 4.svg" alt="Almo Nature">
+          </div>
+
+          <h3>"Almo Nature"</h3>
+
+          <a href="#"><p>Voir plus ></p></a>
+
+      </article>
+
     </section>
 
-    <section>
-      <h2></h2>
-      <article>
-        <div></div>
-        <h3></h3>
-        <p></p>
-        <div></div>
+    <section class="our-notice">
+
+      <h2>Vos Avis</h2>
+
+      <p>Avis, commentaires et photo clients</p>
+
+      <article class="notice1">
+
+        <div class="name">
+          <p>"Aurélie"</p>
+        </div>
+
+        <div class="photo">
+          <img src="doc/aurelie.svg" alt="aurelie">
+        </div>
+
+        <div class="star">
+          <img src="doc/star.svg" alt="étoiles">
+        </div>
+
+        <div class="commentaires">
+          <p>Bon rapport qualité-prix, à voir dans le temps si elle fonctionne bien.</p>
+        </div>
+
       </article>
+
+      <article class="notice2">
+
+        <div class="name">
+          <p>"Alexandra"</p>
+        </div>
+
+        <div class="photo">
+          <img src="doc/alexandra.svg" alt="alexandra">
+        </div>
+
+        <div class="star">
+          <img src="doc/star 2.svg" alt="étoiles">
+        </div>
+
+        <div class="commentaires">
+          <p>Bonne ampoule chauffante. Fais le job Prix attractif, à voir dans le temps.</p>
+        </div>
+
+      </article>
+      
+      <article class="notice3">
+
+        <div class="name">
+          <p>"Laetitia"</p>
+        </div>
+
+        <div class="photo">
+          <img src="doc/laetitia.svg" alt="laetitia">
+        </div>
+
+        <div class="star">
+          <img src="doc/star.svg" alt="étoiles">
+        </div>
+
+        <div class="commentaires">
+          <p>Tres bien excellent produit comment d'habitude sur zoomalia A recommander vivement.</p>
+        </div>
+
+      </article>
+
+      <article class="notice4">
+
+        <div class="name">
+          <p>"Annie"</p>
+        </div>
+
+        <div class="photo">
+          <img src="doc/annie.svg" alt="annie">
+        </div>
+
+        <div class="star">
+          <img src="doc/star 2.svg" alt="étoiles">
+        </div>
+
+        <div class="commentaires">
+          <p>Produit qui dure dans le temps très fonctionnel. Impeccable pour terrarium avec tortues de terre.</p>
+        </div>
+
+      </article>
+
+      <section>
+
+        <div class="pay">
+          <p>Paiement sécurisé</p>
+          <img src="doc/master-card.svg" alt="master card">
+          <img src="doc/paypal.svg" alt="paypal">
+          <img src="doc/visa.svg" alt="visa">
+        </div>
+
+        <div class="livraison">
+          <p>Livraison offerte dès 49€</p>
+          <img src="doc/truck.svg" alt="truck">
+        </div>
+
+        <div class="chronopost">
+          <p>Chronopost Dpd Pickup</p>
+          <img src="doc/map-pin.svg" alt="map">
+        </div>
+
+      </section>
+
     </section>
 
   </main>
 
-  <footer></footer>
+  <footer>
+
+    <ul class="links">
+      <li>Produit</li>
+      <li>Parrainage</li>
+      <li>Mon compte</li>
+    </ul>
+
+    <img src="doc/zoomalia.svg" alt="zoomalia">
+
+    <ul class="links">
+      <li>A propos</li>
+      <li>Contact</li>
+      <li>Support</li>
+    </ul>
+
+    <div class="social-media">
+
+      <ul class="social">
+        <li><img src="doc/facebook.svg" alt="facebook"></li>
+        <li><img src="doc/insta.svg" alt="instagram"></li>
+        <li><img src="doc/linkedin.svg" alt="linkedin"></li>
+        <li><img src="doc/pinterest.svg" alt="pinterest"></li>
+        <li><img src="doc/twitter.png" alt="twitter"></li>
+      </ul>
+      
+    </div>
+
+  </footer>
 
 <script src="script.js"></script>
 
