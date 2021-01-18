@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+header {
+    background-color: #C4C4C4;
+}
+
+.catégorie {
+    background-color: #000000;
+    opacity: 50%;
+    height: 80vh;
+}
