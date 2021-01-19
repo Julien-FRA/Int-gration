@@ -224,6 +224,43 @@ figcaption {
     min-height: 540px;
 }
 
+.carousel {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin: 2rem auto;
+    width: 261px;
+}
+
+.carousel-card {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+
+.carousel-btn {
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+    z-index: 1;
+}
+
+.carousel-btn.previous {
+    left: 5px;
+}
+
+.carousel-btn.next {
+    right: 5px;
+}
+
+.carousel-btn:hover {
+    opacity: 1;
+}
+
 .our-mark h2 {
     margin-bottom: 40px;
     font-family: Fredoka_one;
