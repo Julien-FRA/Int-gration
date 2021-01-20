@@ -13,6 +13,7 @@
     padding: 0;
     border-style: none;
     text-decoration: none;
+    list-style-type: none;
 }
 
 body {
@@ -224,56 +225,43 @@ figcaption {
     min-height: 540px;
 }
 
-.carousel {
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    margin: 2rem auto;
-    width: 261px;
+.our-mark h2 {
+    margin-bottom: 15px;
+    font-family: Fredoka_one;
+    color: #5A5A5A;
+    font-size: 24px;
 }
 
 .carousel-card {
     display: flex;
-    transform: translateX(0);
-    transition: transform 0.25s;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    position: relative;
+    margin: 2rem auto;
+    width: 300px;
 }
 
-.carousel-btn {
-    cursor: pointer;
-    height: 3rem;
-    width: 3rem;
-    position: absolute;
-    opacity: 0.5;
-    transition: opacity 0.25s;
-    z-index: 1;
+.carousel-card::-webkit-scrollbar {
+    width: 20px;
 }
 
-.carousel-btn.previous {
-    left: 5px;
-}
-
-.carousel-btn.next {
-    right: 5px;
-}
-
-.carousel-btn:hover {
-    opacity: 1;
-}
-
-.our-mark h2 {
-    margin-bottom: 40px;
-    font-family: Fredoka_one;
-    color: #5A5A5A;
-    font-size: 24px;
+.carousel-card::-webkit-scrollbar-thumb {
+    background: #FF931E;
+    border-radius: 8px;
 }
 
 .card1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    scroll-snap-align: start;
     width: 260px;
     height: 347px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
     background-color: #EEEEEE;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
@@ -297,6 +285,138 @@ figcaption {
     color: #00CAC9;
     margin-top: 20px;
 }
+
+.our-reviews {
+    display: flex;
+    flex-direction: column;
+    min-width: 372px;
+}
+
+.our-reviews h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: Fredoka_one;
+    font-size: 24px;
+    color: #5A5A5A;
+}
+
+.review-p {
+    display: none;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    position: relative;
+    margin: 2rem auto;
+    width: 372px;
+}
+
+.slider::-webkit-scrollbar {
+    width: 20px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: #FF931E;
+    border-radius: 8px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    min-width: 372px;
+}
+
+.review .star {
+    margin-bottom: 30px;
+}
+
+.review .name {
+    font-family: Fredoka_one;
+    font-size: 22px;
+    color: #5A5A5A;
+    margin-top: 30px;
+}
+
+.review .info {
+    display: flex;
+    text-align: center;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #5A5A5A;
+}
+
+.review .btn {
+    display: flex;
+    justify-content: center;
+    background-color: #FF931E;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 140px;
+    margin-top: 40px;
+}
+
+.secure {
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 372px;
+}
+
+footer img {
+    margin-top: 30px;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    font-family: Fredoka_one;
+    font-size: 14px;
+    color: #5A5A5A;
+}
+
+footer .links li {
+    padding: 20px;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+footer .social li {
+    padding: 15px
+}
+
+footer hr {
+    margin-top: 20px;
+    width: 80%;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+
+
 
 
 
