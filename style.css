@@ -119,22 +119,36 @@ main {
 }
 
 .hero-page {
+    display: flex;
     position: relative;
     top: 10%;
-    min-width: 372px;
+    min-width: 520px;
     width: 100%;
     min-height: 287px;
 }
 
 .hero-page img {
+    display: flex;
     width: 100%;
+    min-width: 520px;
+}
+
+.slogan {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    margin: 0 30px 0 30px;
+    font-family: Fredoka_one;
+    font-size: 25px;
+    color: #00CAC9;
 }
 
 .category-page {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-width: 372px;
+    min-width: 520px;
     min-height: 600px;
 }
 
@@ -180,7 +194,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 372px;
+    min-width: 520px;
     width: 100%;
     min-height: 540px;
 }
@@ -199,6 +213,8 @@ figcaption {
 
 .about-us-page img {
     margin: 0 10px 0 10px;
+    width: 100%;
+    max-width: 480px;
 }
 
 .button {
@@ -213,14 +229,18 @@ figcaption {
     font-size: 16px;
     border-radius: 8px;
     width: 200px;
-    margin-top: 40px;
+    margin: 40px;
+}
+
+.button.large {
+    display: none;
 }
 
 .our-mark {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 372px;
+    min-width: 520px;
     width: 100%;
     min-height: 540px;
 }
@@ -289,7 +309,7 @@ figcaption {
 .our-reviews {
     display: flex;
     flex-direction: column;
-    min-width: 372px;
+    min-width: 520px;
 }
 
 .our-reviews h2 {
@@ -362,6 +382,7 @@ figcaption {
     border: none;
     color: #fff;
     padding: 15px;
+    margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -378,7 +399,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 372px;
+    min-width: 520px;
 }
 
 footer img {
@@ -413,6 +434,162 @@ footer hr {
     width: 80%;
     height: 2px;
     background-color: #C4C4C4;
+}
+
+@media screen and (min-width: 800px) {
+    .heart {
+        display: flex;
+        position: relative;
+        margin-left: 20px;
+        top: 20%;
+    }
+
+    .slogan {
+        font-size: 30px;
+    }
+
+    .category-page h2 {
+        font-size: 28px;
+    }
+
+    .category {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .category img {
+        width: 35%;
+        height: 80%;
+    }
+
+    .category figcaption {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .about-us-page {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #EEEEEE;
+    }
+
+    .about {
+        width: 50%;
+        margin: 0 30px 0 30px;
+    }
+
+    .about-us-page img {
+        width: 50%;
+    }
+
+    .about-us-page h2 {
+        font-size: 28px;
+    }
+
+    .about-us-page p {
+        display: flex;
+        max-width: 562px;
+        color: #5A5A5A;
+        font-size: 16px;
+    }
+
+    .button.large {
+        display: flex;
+        margin: 20px 0 0 0;
+    }
+
+    .button.small {
+        display: none;
+    }
+
+    .carousel-card {
+        width: 500px;
+    }
+
+    .our-mark h2 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .our-reviews {
+        background-color: #EEEEEE;
+    }
+
+    .our-reviews h2 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .slider {
+        width: 700px;
+    }
+
+    .secure {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 80px;
+    }
+
+    .pay {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+        border-right: 2px solid #00CAC9;
+    }
+
+    .pay img {
+        display: none;
+    }
+
+    .delivery {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+        border-right: 2px solid #00CAC9;
+    }
+
+    .delivery img {
+        display: none;
+    }
+
+    .chronopost {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+
+    .chronopost img {
+        display: none;
+    }
+
+    .secure p {
+        font-family: Fredoka_one;
+        font-size: 18px;
+        color: #5A5A5A;
+    }
+
+    footer {
+        background-color: #EEEEEE;
+    }
+
+    .links p {
+        font-size: 14px;
+    }
+
+    
+
+
+
+
+
 }
 
 
