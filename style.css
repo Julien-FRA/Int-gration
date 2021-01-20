@@ -61,8 +61,8 @@ main {
     top: 0;
     left: 0;
     background: #00CAC9;
-    width: 100vw;
-    height: 100vh;
+    width: 200px;
+    height: 310px;
     overflow: hidden;
     color: white;
     /* Cacher le menu du screen par défault */
@@ -74,7 +74,7 @@ main {
 .navbar .menuLink {
     position: relative;
     top: 50px;
-    left: 25px;
+    left: 40px;
     color: white;
     font-weight: bolder;
 }
@@ -460,6 +460,10 @@ footer hr {
     .category img {
         width: 35%;
         height: 80%;
+    }
+
+    .category figcaption {
+        margin-bottom: 10px;
     }
 
     .category figcaption {
