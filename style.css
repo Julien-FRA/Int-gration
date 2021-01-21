@@ -120,6 +120,10 @@ main {
     display: none;
 }
 
+.search-bar {
+    display: none;
+}
+
 .hero-page {
     display: flex;
     position: relative;
@@ -406,7 +410,7 @@ figcaption {
     border: none;
     color: #fff;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -808,13 +812,11 @@ footer hr {
     .navbar ul {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        
     }
 
     .navbar .menuLink {
+        top: 20px;
+        left: 10px;
         color: #5A5A5A;
         font-size: 16px;
         padding: 10px;
@@ -829,6 +831,23 @@ footer hr {
     .slogan {
         font-size: 36px;
     }
+
+    .search-bar {
+        display: flex;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        width: 60%;
+        height: 40px;
+        border: 2px solid #FF931E;
+        border-radius: 8px;
+    }
+
+    .search {
+        display: none;
+    }
+
     .carousel-card {
         justify-content: center;
         width: 100%;
@@ -837,6 +856,17 @@ footer hr {
     .slider {
         justify-content: center;
         width: 100%;
+    }
+
+    .review {
+        background-color: #ff921e41;
+        margin: 10px;
+        padding-top: 10px;
+        border-radius: 8px;
+    }
+
+    .review.two {
+        background-color: #00caca3a;
     }
 }
 
