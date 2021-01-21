@@ -822,6 +822,10 @@ footer hr {
         padding: 10px;
     }
 
+    .menuLink:hover {
+        color: #00CAC9;
+    }
+
     .ham {
         display: none;
     }
