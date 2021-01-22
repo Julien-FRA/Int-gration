@@ -168,18 +168,18 @@ main {
     justify-content: center;
     width: 100%;
     position: absolute;
-    padding-top: 20px;
+    margin-top: 40px;
     font-family: Fredoka_one;
     color: #5A5A5A;
     font-size: 24px;
-    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .category {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 60px;
+    margin-top: 100px;
     width: 100%;
 }
 
@@ -202,7 +202,7 @@ figure img {
 }
 
 figcaption {
-    color: #00CAC9;
+    color: #5A5A5A;
     font-family: Fredoka_one;
 }
 
@@ -221,6 +221,7 @@ figcaption {
     font-family: Fredoka_one;
     font-size: 24px;
     color: #5A5A5A;
+    letter-spacing: 2px;
 }
 
 .about-us-page p {
@@ -266,10 +267,11 @@ figcaption {
 }
 
 .our-mark h2 {
-    margin-bottom: 15px;
+    margin: 40px 0 15px 0;
     font-family: Fredoka_one;
     color: #5A5A5A;
     font-size: 24px;
+    letter-spacing: 2px;
 }
 
 .mark-p {
@@ -291,7 +293,7 @@ figcaption {
 }
 
 .carousel-card::-webkit-scrollbar {
-    width: 20px;
+    height: 10px;
 }
 
 .carousel-card::-webkit-scrollbar-thumb {
@@ -346,9 +348,11 @@ figcaption {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    margin-top: 40px;
     font-family: Fredoka_one;
     font-size: 24px;
     color: #5A5A5A;
+    letter-spacing: 2px;
 }
 
 .review-p {
@@ -363,7 +367,6 @@ figcaption {
     display: flex;
     align-items: center;
     scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
     overflow-x: scroll;
     position: relative;
@@ -372,7 +375,7 @@ figcaption {
 }
 
 .slider::-webkit-scrollbar {
-    width: 20px;
+    height: 10px;
 }
 
 .slider::-webkit-scrollbar-thumb {
@@ -499,7 +502,7 @@ footer hr {
 
     .category {
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .category img {
@@ -541,7 +544,6 @@ footer hr {
 
     .about-us-page p {
         display: flex;
-        max-width: 562px;
         margin-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
@@ -551,7 +553,7 @@ footer hr {
 
     .button.large {
         display: flex;
-        margin: 20px 0 0 20px;
+        margin: 40px 0 40px 20px;
     }
 
     .button.small {
@@ -564,7 +566,6 @@ footer hr {
 
     .our-mark h2 {
         font-size: 28px;
-        margin-top: 30px;
     }
 
     .our-reviews {
@@ -573,7 +574,6 @@ footer hr {
 
     .our-reviews h2 {
         font-size: 28px;
-        margin-top: 30px;
     }
 
     .slider {
