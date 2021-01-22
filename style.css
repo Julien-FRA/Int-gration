@@ -916,11 +916,8 @@ footer hr {
   }
   
   .back-to-top-link {
-      /* position: sticky; */
       position: absolute;
       top: 20px;
       left: 20px;
       pointer-events: all;
   }
-  
-  $scrollLength: 100vh;
