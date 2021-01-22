@@ -21,3 +21,33 @@ menuLinks.forEach(
       menuLink.addEventListener("click", toggleHamburger) 
     }
 );
+
+//Carousel produits similaires 
+
+const slides = document.querySelector('.carousel-card');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+const count = document.querySelectorAll('.card1').length;
+let current = 0;
+
+prevButton.addEventListener('click', prev);
+nextButton.addEventListener('click', next);
+
+function prev() {
+  if (current > 0) {
+    current--;
+    update();
+  }
+}
+
+function next() {
+  if (current < count - 1) {
+    current++;
+    update(); 
+  }
+}
+
+function update() {
+  const transform = -100 * current;
+  slides.style.transform = `translateX(${transform}vw)`;
+}
