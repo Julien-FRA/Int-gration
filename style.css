@@ -53,10 +53,6 @@ main {
     background-size: 100%;
 }
 
-.ham:hover {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 /* Changement de l'image quand il est fermé */
 .showClose {
     background-image: url(doc/croix.svg);
@@ -127,27 +123,21 @@ main {
 }
 
 .hero-page {
-    display: flex;
     position: relative;
-    top: 10%;
     min-width: 520px;
-    width: 100%;
-    min-height: 287px;
 }
 
 .hero-page img {
-    display: flex;
     width: 100%;
-    min-width: 520px;
 }
+
 .tittle {   
-    display: flex;
-    justify-content: center;
     text-align: center;
     width: 100%;
     position: absolute;
     top: 5%;
 }
+
 .slogan {
     font-family: Fredoka_one;
     font-size: 25px;
@@ -157,16 +147,15 @@ main {
 .category-page {
     display: flex;
     justify-content: center;
-    width: 100%;
     min-width: 520px;
     min-height: 600px;
 }
 
 .category-page h2 {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
+    min-width: 200px;
     position: absolute;
     margin-top: 40px;
     font-family: Fredoka_one;
@@ -520,9 +509,7 @@ footer hr {
     }
 
     .about-us-page {
-        display: flex;
         flex-direction: row;
-        width: 100%;
         background-color: #EEEEEE;
     }
 
@@ -861,27 +848,6 @@ footer hr {
         justify-content: center;
         width: 100%;
     } 
-
-    .arrow {
-        display: inline-block;
-        position: relative;
-        background-color: #fff;
-    }
-
-    .arrow:hover {
-        opacity: 0.75;
-        cursor: pointer;
-    }
-
-    .arrow.prev {
-        top: -250px;
-        right: 620px;
-    }
-
-    .arrow.next {
-        top: -300px;
-        left: 620px;
-    }
 
     .slider {
         justify-content: center;
