@@ -3,11 +3,13 @@
 @font-face {
     font-family: Fredoka_one;
     src: url(doc/fredokaone-regular-webfont.woff);
+    font-display: swap;
 }
 
 @font-face {
     font-family: Ubunto;
     src: url(doc/ubuntu-regular-webfont.woff);
+    font-display: swap;
 }
 
 /* Reset page css */
@@ -104,6 +106,8 @@ main {
 
 .search {
     grid-column: 2 / 3;
+    width: 30px;
+    height: 30px;
 }
 
 .logo {
@@ -114,10 +118,14 @@ main {
 
 .user {
     grid-column: 4 / 5;
+    width: 30px;
+    height: 30px;
 }
 
 .shop {
     grid-column: 5 / 6;
+    width: 30px;
+    height: 30px;
 }
 
 .heart {
@@ -133,10 +141,13 @@ main {
 .hero-page {
     position: relative;
     min-width: 520px;
+    width: 100%;
+    min-height: 287px;
 }
 
 .hero-page img {
     width: 100%;
+    min-width: 520px;
 }
 
 .tittle {   
@@ -198,6 +209,8 @@ figure img:hover {
 figure img {
     margin: auto;
     border-radius: 8px;
+    width: auto;
+    height: auto;
 }
 
 figcaption {
@@ -499,6 +512,8 @@ footer hr {
     .heart {
         display: flex;
         grid-column: 6 / 7;
+        width: 30px;
+        height: 30px;
     }
 
     .slogan {
