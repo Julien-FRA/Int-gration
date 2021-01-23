@@ -1,3 +1,5 @@
+/* Setting up fonts in wolf format */
+
 @font-face {
     font-family: Fredoka_one;
     src: url(doc/fredokaone-regular-webfont.woff);
@@ -7,6 +9,8 @@
     font-family: Ubunto;
     src: url(doc/ubuntu-regular-webfont.woff);
 }
+
+/* Reset page css */
 
 * {
     margin: 0;
@@ -23,6 +27,8 @@ body {
 main {
     margin-top: 45px;
 }
+
+/* Setting up the nav bar */
 
 .nav {
     display: grid;
@@ -122,6 +128,8 @@ main {
     display: none;
 }
 
+/* Setting up the hero on page */
+
 .hero-page {
     position: relative;
     min-width: 520px;
@@ -143,6 +151,8 @@ main {
     font-size: 25px;
     color: #00CAC9;
 }
+
+/* Setting up the categories page */
 
 .category-page {
     display: flex;
@@ -195,6 +205,8 @@ figcaption {
     font-family: Fredoka_one;
 }
 
+/* Setting up the about us page */
+
 .about-us-page {
     display: flex;
     flex-direction: column;
@@ -245,6 +257,8 @@ figcaption {
 .button:hover {
     background-color: #ff921e6b;
 }
+
+/* Setting up our mark page */
 
 .our-mark {
     display: flex;
@@ -326,6 +340,8 @@ figcaption {
 .arrow {
     display: none;
 }
+
+/* Setting up our reviews page */
 
 .our-reviews {
     display: flex;
@@ -425,6 +441,8 @@ figcaption {
     display: none;
 }
 
+/* Setting up the footer */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -469,6 +487,8 @@ footer hr {
 .middle {
     display: none;
 }
+
+/* First responsive format at 800px */
 
 @media screen and (min-width: 800px) {
     .nav {
@@ -627,6 +647,8 @@ footer hr {
     }
 }
 
+/* Second responsive format at 1000px */
+
 @media screen and (min-width: 1000px) {
     .slogan {
         font-size: 34px;
@@ -656,6 +678,8 @@ footer hr {
         width: 800px;
     }
 }
+
+/* Third responsive format at 1200px */
 
 @media screen and (min-width: 1200px) {
     .category {
@@ -823,6 +847,8 @@ footer hr {
     }
 }
 
+/* Last responsive format at 1400px */
+
 @media screen and (min-width: 1400px) {
     .slogan {
         font-size: 36px;
@@ -865,6 +891,8 @@ footer hr {
         background-color: #00caca3a;
     }
 }
+
+/* Setting up the back to top */
 
 @media screen and (prefers-reduced-motion: no-preference) {
     html {

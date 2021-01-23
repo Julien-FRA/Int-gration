@@ -1,21 +1,21 @@
 console.log('Hello World');
 
-// Javascript pour le menu burger
-// Ici on défini les variables pour le burger menu
+// Javascript for the burger menu
+// Here we define the variables for the burger menu
 var navbar = document.querySelector(".navbar");
 var ham = document.querySelector(".ham");
 var menuLinks = document.querySelectorAll(".menuLink");
 
-// Ici on écoute le click sur le burger
+// Here we listen to the click on the burger
 ham.addEventListener("click", toggleHamburger);
 
-// Ici on crée la fonction du click
+// Here we create the click function
 function toggleHamburger(){
     navbar.classList.toggle("showNav")
     ham.classList.toggle("showClose")
 };
 
-// Ici on écoute le clique de chaque lien
+// IHere we listen to the click of each link
 menuLinks.forEach( 
     function(menuLink) { 
       menuLink.addEventListener("click", toggleHamburger) 
